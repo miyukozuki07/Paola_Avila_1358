@@ -43,5 +43,19 @@ class Array2D:
             print("error en longitud")
 
 
-    def 
+    def get_item(self,r,c):
+        return__self.__data[r][c]
+
+
+def main():
+    Arreglo = Array2D(10,10)
+    Arreglo.to_string()
+    print(f"Numero de filas es:{Arreglo.get_num_rows()}")
+    print(f"Numero de columnas es: {Arreglo.get_num_cols()}")
+    Arreglo.clearing(1)
+    Arreglo.to_string()
+    Arreglo.set_item(2,3,10)
+    Arreglo.to_string()
+
+main()
 
