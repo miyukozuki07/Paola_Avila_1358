@@ -26,7 +26,7 @@ generación.
 """
 
 
-from arrays.Array_2D import Array2D
+from arrays.Array_2D import Array2D    #Descargar la carpeta arrays(paquete)
 class JuegoDeLaVida:
     def __init__(self, rows, cols, generaciones, poblacion_inicial):
         self.__cuadro = Array2D(rows,cols)
